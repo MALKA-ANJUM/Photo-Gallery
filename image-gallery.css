@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: capitalize;
+   padding: 20px;
+    
+}
+
+    
+
+span{
+    font-weight: lighter;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 5px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    
+}
+
+.item img{
+    width: 100%;
+    margin-bottom: 3px;
+    border-radius: 10px;
+}
